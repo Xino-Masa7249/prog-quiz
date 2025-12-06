@@ -1,0 +1,2003 @@
+[
+  {
+    "id": "B1",
+    "question": "変数を宣言するキーワードはどれ？",
+    "answer": "let",
+    "options": [
+      {
+        "text": "let",
+        "isCorrect": true
+      },
+      {
+        "text": "make",
+        "isCorrect": false
+      },
+      {
+        "text": "def",
+        "isCorrect": false
+      },
+      {
+        "text": "new",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B2",
+    "question": "定数を宣言するキーワードはどれ？",
+    "answer": "const",
+    "options": [
+      {
+        "text": "static",
+        "isCorrect": false
+      },
+      {
+        "text": "const",
+        "isCorrect": true
+      },
+      {
+        "text": "constant",
+        "isCorrect": false
+      },
+      {
+        "text": "define",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B3",
+    "question": "文字列を数値に変換する関数はどれ？",
+    "answer": "Number()",
+    "options": [
+      {
+        "text": "parseInt()",
+        "isCorrect": false
+      },
+      {
+        "text": "toString()",
+        "isCorrect": false
+      },
+      {
+        "text": "Number()",
+        "isCorrect": true
+      },
+      {
+        "text": "String()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B4",
+    "question": "数値を文字列に変換するメソッドはどれ？",
+    "answer": ".toString()",
+    "options": [
+      {
+        "text": "parseInt()",
+        "isCorrect": false
+      },
+      {
+        "text": "Number()",
+        "isCorrect": false
+      },
+      {
+        "text": "String()",
+        "isCorrect": false
+      },
+      {
+        "text": ".toString()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "B5",
+    "question": "メッセージをコンソールに表示するのはどれ？",
+    "answer": "console.log()",
+    "options": [
+      {
+        "text": "console.log()",
+        "isCorrect": true
+      },
+      {
+        "text": "window.alert()",
+        "isCorrect": false
+      },
+      {
+        "text": "print.log()",
+        "isCorrect": false
+      },
+      {
+        "text": "window.prompt()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B6",
+    "question": "メッセージを含むダイアログを表示するのはどれ？",
+    "answer": "window.alert()",
+    "options": [
+      {
+        "text": "console.log()",
+        "isCorrect": false
+      },
+      {
+        "text": "window.alert()",
+        "isCorrect": true
+      },
+      {
+        "text": "print.log()",
+        "isCorrect": false
+      },
+      {
+        "text": "window.prompt()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B7",
+    "question": "ユーザーにテキストを入力するように促すダイアログを表示するのはどれ？",
+    "answer": "window.prompt()",
+    "options": [
+      {
+        "text": "console.log()",
+        "isCorrect": false
+      },
+      {
+        "text": "window.alert()",
+        "isCorrect": false
+      },
+      {
+        "text": "print.log()",
+        "isCorrect": false
+      },
+      {
+        "text": "window.prompt()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "B8",
+    "question": "基本的な繰り返し処理に使われる、条件を満たす間繰り返し処理をする文はどれ？",
+    "answer": "for",
+    "options": [
+      {
+        "text": "for",
+        "isCorrect": true
+      },
+      {
+        "text": "until",
+        "isCorrect": false
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      },
+      {
+        "text": "switch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B9",
+    "question": "基本的な分岐処理に使われる、条件を満たす場合のみ処理をする文はどれ？",
+    "answer": "if",
+    "options": [
+      {
+        "text": "for",
+        "isCorrect": false
+      },
+      {
+        "text": "until",
+        "isCorrect": false
+      },
+      {
+        "text": "if",
+        "isCorrect": true
+      },
+      {
+        "text": "switch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B10",
+    "question": "次のうち、行コメント（短文）で使われるものは？",
+    "answer": "//",
+    "options": [
+      {
+        "text": "//",
+        "isCorrect": true
+      },
+      {
+        "text": "/* */",
+        "isCorrect": false
+      },
+      {
+        "text": "()",
+        "isCorrect": false
+      },
+      {
+        "text": "#",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B11",
+    "question": "ブロックコメント（長文）で使われるものは？",
+    "answer": "/* */",
+    "options": [
+      {
+        "text": "//",
+        "isCorrect": false
+      },
+      {
+        "text": "/* */",
+        "isCorrect": true
+      },
+      {
+        "text": "()",
+        "isCorrect": false
+      },
+      {
+        "text": "「」",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B12",
+    "question": "意図的にオブジェクトの値が存在しないことを表すものはどれ？",
+    "answer": "null",
+    "options": [
+      {
+        "text": "null",
+        "isCorrect": true
+      },
+      {
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "text": "NaN",
+        "isCorrect": false
+      },
+      {
+        "text": "void",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B13",
+    "question": "値がないことを示したり、未定義であることを表すものはどれ？",
+    "answer": "undefined",
+    "options": [
+      {
+        "text": "null",
+        "isCorrect": false
+      },
+      {
+        "text": "undefined",
+        "isCorrect": true
+      },
+      {
+        "text": "NaN",
+        "isCorrect": false
+      },
+      {
+        "text": "void",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B14",
+    "question": "非数を表す値はどれ？",
+    "answer": "NaN",
+    "options": [
+      {
+        "text": "null",
+        "isCorrect": false
+      },
+      {
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "text": "NaN",
+        "isCorrect": true
+      },
+      {
+        "text": "void",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B15",
+    "question": "加算を行う演算子はどれ？",
+    "answer": "+",
+    "options": [
+      {
+        "text": "+",
+        "isCorrect": true
+      },
+      {
+        "text": "-",
+        "isCorrect": false
+      },
+      {
+        "text": "*",
+        "isCorrect": false
+      },
+      {
+        "text": "/",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B16",
+    "question": "論理値で真を表すのはどれ？",
+    "answer": "true",
+    "options": [
+      {
+        "text": "true",
+        "isCorrect": true
+      },
+      {
+        "text": "false",
+        "isCorrect": false
+      },
+      {
+        "text": "Yes",
+        "isCorrect": false
+      },
+      {
+        "text": "No",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B17",
+    "question": "論理値で偽を表すのはどれ？",
+    "answer": "false",
+    "options": [
+      {
+        "text": "true",
+        "isCorrect": false
+      },
+      {
+        "text": "false",
+        "isCorrect": true
+      },
+      {
+        "text": "Yes",
+        "isCorrect": false
+      },
+      {
+        "text": "No",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B18",
+    "question": "等しいかどうかを比較する演算子はどれ？",
+    "answer": "==",
+    "options": [
+      {
+        "text": "=",
+        "isCorrect": false
+      },
+      {
+        "text": "==",
+        "isCorrect": true
+      },
+      {
+        "text": "===",
+        "isCorrect": false
+      },
+      {
+        "text": "!=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B19",
+    "question": "値と型の両方が等しいかどうかを比較する演算子はどれ？",
+    "answer": "===",
+    "options": [
+      {
+        "text": "==",
+        "isCorrect": false
+      },
+      {
+        "text": "===",
+        "isCorrect": true
+      },
+      {
+        "text": "!=",
+        "isCorrect": false
+      },
+      {
+        "text": "!==",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B20",
+    "question": "等しくないかどうかを判断する演算子はどれ？",
+    "answer": "!=",
+    "options": [
+      {
+        "text": "!=",
+        "isCorrect": true
+      },
+      {
+        "text": "!==",
+        "isCorrect": false
+      },
+      {
+        "text": "==",
+        "isCorrect": false
+      },
+      {
+        "text": "===",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B21",
+    "question": "値と型の両方が等しくないかどうか判断する演算子はどれ？",
+    "answer": "!==",
+    "options": [
+      {
+        "text": "!==",
+        "isCorrect": true
+      },
+      {
+        "text": "!=",
+        "isCorrect": false
+      },
+      {
+        "text": "==",
+        "isCorrect": false
+      },
+      {
+        "text": "===",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "B22",
+    "question": "型チェックで用いられるのはどれ？",
+    "answer": "typeof",
+    "options": [
+      {
+        "text": "typeof",
+        "isCorrect": true
+      },
+      {
+        "text": "operand",
+        "isCorrect": false
+      },
+      {
+        "text": "object",
+        "isCorrect": false
+      },
+      {
+        "text": "type",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A1",
+    "question": "配列の長さを取得するプロパティは？",
+    "answer": ".length",
+    "options": [
+      {
+        "text": ".count",
+        "isCorrect": false
+      },
+      {
+        "text": ".length",
+        "isCorrect": true
+      },
+      {
+        "text": ".size",
+        "isCorrect": false
+      },
+      {
+        "text": ".elements",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A2",
+    "question": "配列の末尾に追加するメソッドは？",
+    "answer": ".push",
+    "options": [
+      {
+        "text": ".join",
+        "isCorrect": false
+      },
+      {
+        "text": ".split",
+        "isCorrect": false
+      },
+      {
+        "text": ".push",
+        "isCorrect": true
+      },
+      {
+        "text": ".unshift",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A3",
+    "question": "配列の先頭に追加するメソッドは？",
+    "answer": ".unshift",
+    "options": [
+      {
+        "text": ".join",
+        "isCorrect": false
+      },
+      {
+        "text": ".split",
+        "isCorrect": false
+      },
+      {
+        "text": ".push",
+        "isCorrect": false
+      },
+      {
+        "text": ".unshift",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "A4",
+    "question": "配列の最後を削除するメソッドは？",
+    "answer": ".pop",
+    "options": [
+      {
+        "text": ".pop",
+        "isCorrect": true
+      },
+      {
+        "text": ".delete",
+        "isCorrect": false
+      },
+      {
+        "text": ".shift",
+        "isCorrect": false
+      },
+      {
+        "text": ".unshift",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A5",
+    "question": "配列の先頭を削除するメソッドは？",
+    "answer": ".shift",
+    "options": [
+      {
+        "text": ".pop",
+        "isCorrect": false
+      },
+      {
+        "text": ".delete",
+        "isCorrect": false
+      },
+      {
+        "text": ".shift",
+        "isCorrect": true
+      },
+      {
+        "text": ".unshift",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A6",
+    "question": "位置を指定して配列を追加したり削除できるメソッドは？",
+    "answer": ".splice",
+    "options": [
+      {
+        "text": ".control",
+        "isCorrect": false
+      },
+      {
+        "text": ".splice",
+        "isCorrect": true
+      },
+      {
+        "text": ".replace",
+        "isCorrect": false
+      },
+      {
+        "text": ".split",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A7",
+    "question": "配列要素を展開してくれるスプレッド構文はどれ？",
+    "answer": "...",
+    "options": [
+      {
+        "text": "...",
+        "isCorrect": true
+      },
+      {
+        "text": ",,,",
+        "isCorrect": false
+      },
+      {
+        "text": "||",
+        "isCorrect": false
+      },
+      {
+        "text": "??",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A8",
+    "question": "配列のすべての要素に同じ処理を行うメソッドは？",
+    "answer": ".forEach()",
+    "options": [
+      {
+        "text": ".map()",
+        "isCorrect": false
+      },
+      {
+        "text": ".filter()",
+        "isCorrect": false
+      },
+      {
+        "text": ".forEach()",
+        "isCorrect": true
+      },
+      {
+        "text": ".reduce()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A9",
+    "question": "条件を満たす要素だけを抽出するメソッドは？",
+    "answer": ".filter()",
+    "options": [
+      {
+        "text": ".map()",
+        "isCorrect": false
+      },
+      {
+        "text": ".filter()",
+        "isCorrect": true
+      },
+      {
+        "text": ".forEach()",
+        "isCorrect": false
+      },
+      {
+        "text": ".reduce()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A10",
+    "question": "配列を別の形に変換して新しい配列を作るメソッドは？",
+    "answer": ".map()",
+    "options": [
+      {
+        "text": ".map()",
+        "isCorrect": true
+      },
+      {
+        "text": ".filter()",
+        "isCorrect": false
+      },
+      {
+        "text": ".forEach()",
+        "isCorrect": false
+      },
+      {
+        "text": ".reduce()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A11",
+    "question": "配列のすべての要素を1つの値にまとめるメソッドは？",
+    "answer": ".reduce()",
+    "options": [
+      {
+        "text": ".reduce()",
+        "isCorrect": true
+      },
+      {
+        "text": ".concat()",
+        "isCorrect": false
+      },
+      {
+        "text": ".flat()",
+        "isCorrect": false
+      },
+      {
+        "text": ".splice()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A12",
+    "question": "配列を文字列として結合するメソッドは？",
+    "answer": ".join()",
+    "options": [
+      {
+        "text": ".concat()",
+        "isCorrect": false
+      },
+      {
+        "text": ".join()",
+        "isCorrect": true
+      },
+      {
+        "text": ".merge()",
+        "isCorrect": false
+      },
+      {
+        "text": ".connect()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "A13",
+    "question": "複数の配列を1つにまとめるメソッドは？",
+    "answer": ".concat()",
+    "options": [
+      {
+        "text": ".concat()",
+        "isCorrect": true
+      },
+      {
+        "text": ".merge()",
+        "isCorrect": false
+      },
+      {
+        "text": ".append()",
+        "isCorrect": false
+      },
+      {
+        "text": ".combine()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S1",
+    "question": "文字列を特定の区切りで配列に分割するメソッドは？",
+    "answer": ".split()",
+    "options": [
+      {
+        "text": ".join()",
+        "isCorrect": false
+      },
+      {
+        "text": ".split()",
+        "isCorrect": true
+      },
+      {
+        "text": ".slice()",
+        "isCorrect": false
+      },
+      {
+        "text": ".splice()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "question": "文字列中に指定した文字列があるか検索し、真偽値を返すものは？",
+    "answer": ".includes()",
+    "options": [
+      {
+        "text": ".match()",
+        "isCorrect": false
+      },
+      {
+        "text": ".includes()",
+        "isCorrect": true
+      },
+      {
+        "text": ".search()",
+        "isCorrect": false
+      },
+      {
+        "text": "indexOf()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "question": "文字列の先頭が指定した文字列で始まるか判定するものは？",
+    "answer": ".startsWith()",
+    "options": [
+      {
+        "text": ".startsWith()",
+        "isCorrect": true
+      },
+      {
+        "text": ".endsWith()",
+        "isCorrect": false
+      },
+      {
+        "text": ".lastIndexOf()",
+        "isCorrect": false
+      },
+      {
+        "text": ".indexOf()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "question": "文字列の末尾が指定した文字列で終わるか判定するものは？",
+    "answer": ".endsWith()",
+    "options": [
+      {
+        "text": ".startsWith()",
+        "isCorrect": false
+      },
+      {
+        "text": ".endsWith()",
+        "isCorrect": true
+      },
+      {
+        "text": ".lastIndexOf()",
+        "isCorrect": false
+      },
+      {
+        "text": ".indexOf()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S5",
+    "question": "文字列中に指定した文字列があるか検索し、最初に出現する位置を返すものは？",
+    "answer": ".indexOf()",
+    "options": [
+      {
+        "text": ".startsWith()",
+        "isCorrect": false
+      },
+      {
+        "text": ".endsWith()",
+        "isCorrect": false
+      },
+      {
+        "text": ".lastIndexOf()",
+        "isCorrect": false
+      },
+      {
+        "text": ".indexOf()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "S6",
+    "question": "文字列中に指定した文字列があるか検索し、最後に出現する位置を返すものは？",
+    "answer": ".lastIndexOf()",
+    "options": [
+      {
+        "text": ".startsWith()",
+        "isCorrect": false
+      },
+      {
+        "text": ".endsWith()",
+        "isCorrect": false
+      },
+      {
+        "text": ".lastIndexOf()",
+        "isCorrect": true
+      },
+      {
+        "text": ".indexOf()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S7",
+    "question": "グローバルフラグが必須でない、文字列中に指定した正規表現に一致するものがあるか検索して返すものは？",
+    "answer": ".match()",
+    "options": [
+      {
+        "text": ".match()",
+        "isCorrect": true
+      },
+      {
+        "text": ".includes()",
+        "isCorrect": false
+      },
+      {
+        "text": ".search()",
+        "isCorrect": false
+      },
+      {
+        "text": ".matchAll()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S8",
+    "question": "グローバルフラグが必須で、文字列中に指定した正規表現に一致するものがあるか検索して返すものは？",
+    "answer": ".matchAll()",
+    "options": [
+      {
+        "text": ".match()",
+        "isCorrect": false
+      },
+      {
+        "text": ".includes()",
+        "isCorrect": false
+      },
+      {
+        "text": ".search()",
+        "isCorrect": false
+      },
+      {
+        "text": ".matchAll()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "S9",
+    "question": "文字列中に引数に指定した正規表現に一致するものがあるか検索し、最初の位置か-1を返すものは？",
+    "answer": ".search()",
+    "options": [
+      {
+        "text": ".match()",
+        "isCorrect": false
+      },
+      {
+        "text": ".includes()",
+        "isCorrect": false
+      },
+      {
+        "text": ".search()",
+        "isCorrect": true
+      },
+      {
+        "text": ".matchAll()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S10",
+    "question": "文字列の桁数を揃えたい場合に、先頭から埋めて返すものは？",
+    "answer": ".padStart()",
+    "options": [
+      {
+        "text": ".padStart()",
+        "isCorrect": true
+      },
+      {
+        "text": ".padEnd()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      },
+      {
+        "text": ".trim()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S11",
+    "question": "文字列の桁数を揃えたい場合に、末尾から埋めて返すものは？",
+    "answer": ".padEnd()",
+    "options": [
+      {
+        "text": ".padStart()",
+        "isCorrect": false
+      },
+      {
+        "text": ".padEnd()",
+        "isCorrect": true
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      },
+      {
+        "text": ".trim()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S12",
+    "question": "指定したパターンに一致する最初の部分、または全てを、指定した文字列で置換して返すものはどれ？",
+    "answer": ".replace()",
+    "options": [
+      {
+        "text": ".slice()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replaceAll()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": true
+      },
+      {
+        "text": ".trim()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S13",
+    "question": "指定したパターンに一致するもの全てを、指定した文字列で置換して返すものはどれ？",
+    "answer": ".replaceAll()",
+    "options": [
+      {
+        "text": ".slice()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replaceAll()",
+        "isCorrect": true
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      },
+      {
+        "text": ".trim()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S14",
+    "question": "指定した位置の文字列を抽出して返すものはどれ？",
+    "answer": ".slice()",
+    "options": [
+      {
+        "text": ".slice()",
+        "isCorrect": true
+      },
+      {
+        "text": ".replaceAll()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      },
+      {
+        "text": ".trim()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S15",
+    "question": "文字列を指定した区切り文字毎の配列に変換して返すものはどれ？",
+    "answer": ".split()",
+    "options": [
+      {
+        "text": ".slice()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replaceAll()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      },
+      {
+        "text": ".split()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "S16",
+    "question": "文字列を全て大文字に変換して返すものはどれ？",
+    "answer": ".toUpperCase()",
+    "options": [
+      {
+        "text": ".toUpperCase()",
+        "isCorrect": true
+      },
+      {
+        "text": ".toLowerCase()",
+        "isCorrect": false
+      },
+      {
+        "text": ".padStart()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S17",
+    "question": "文字列を全て小文字に変換して返すものはどれ？",
+    "answer": ".toLowerCase()",
+    "options": [
+      {
+        "text": ".toUpperCase()",
+        "isCorrect": false
+      },
+      {
+        "text": ".toLowerCase()",
+        "isCorrect": true
+      },
+      {
+        "text": ".padStart()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S18",
+    "question": "文字列の両端からスペースを削除して返すものはどれ？",
+    "answer": ".trim()",
+    "options": [
+      {
+        "text": ".trim()",
+        "isCorrect": true
+      },
+      {
+        "text": ".split()",
+        "isCorrect": false
+      },
+      {
+        "text": ".slice()",
+        "isCorrect": false
+      },
+      {
+        "text": ".replace()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "S19",
+    "question": "元の文字列を指定した数だけコピーして、結合した新しい文字列を返すものはどれ？",
+    "answer": ".repeat()",
+    "options": [
+      {
+        "text": ".loop()",
+        "isCorrect": false
+      },
+      {
+        "text": ".repeat()",
+        "isCorrect": true
+      },
+      {
+        "text": ".copy()",
+        "isCorrect": false
+      },
+      {
+        "text": ".join()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N1",
+    "question": "減算を行う演算子はどれ？",
+    "answer": "-",
+    "options": [
+      {
+        "text": "+",
+        "isCorrect": false
+      },
+      {
+        "text": "-",
+        "isCorrect": true
+      },
+      {
+        "text": "*",
+        "isCorrect": false
+      },
+      {
+        "text": "/",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N2",
+    "question": "乗算を行う演算子はどれ？",
+    "answer": "*",
+    "options": [
+      {
+        "text": "+",
+        "isCorrect": false
+      },
+      {
+        "text": "-",
+        "isCorrect": false
+      },
+      {
+        "text": "*",
+        "isCorrect": true
+      },
+      {
+        "text": "/",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N3",
+    "question": "除算を行う演算子はどれ？",
+    "answer": "/",
+    "options": [
+      {
+        "text": "+",
+        "isCorrect": false
+      },
+      {
+        "text": "-",
+        "isCorrect": false
+      },
+      {
+        "text": "*",
+        "isCorrect": false
+      },
+      {
+        "text": "/",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "N4",
+    "question": "余り（剰余）を求める演算子はどれ？",
+    "answer": "%",
+    "options": [
+      {
+        "text": "%",
+        "isCorrect": true
+      },
+      {
+        "text": "/",
+        "isCorrect": false
+      },
+      {
+        "text": "*",
+        "isCorrect": false
+      },
+      {
+        "text": "+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N5",
+    "question": "べき乗を求める演算子はどれ？",
+    "answer": "**",
+    "options": [
+      {
+        "text": "**",
+        "isCorrect": true
+      },
+      {
+        "text": "^^",
+        "isCorrect": false
+      },
+      {
+        "text": "//",
+        "isCorrect": false
+      },
+      {
+        "text": "%%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N6",
+    "question": "左辺が右辺より大きいか比較する演算子はどれ？",
+    "answer": ">",
+    "options": [
+      {
+        "text": ">",
+        "isCorrect": true
+      },
+      {
+        "text": "<",
+        "isCorrect": false
+      },
+      {
+        "text": ">=",
+        "isCorrect": false
+      },
+      {
+        "text": "<=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N7",
+    "question": "左辺が右辺より小さいか比較する演算子はどれ？",
+    "answer": "<",
+    "options": [
+      {
+        "text": ">",
+        "isCorrect": false
+      },
+      {
+        "text": "<",
+        "isCorrect": true
+      },
+      {
+        "text": ">=",
+        "isCorrect": false
+      },
+      {
+        "text": "<=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N8",
+    "question": "左辺が右辺以上かを比較する演算子はどれ？",
+    "answer": ">=",
+    "options": [
+      {
+        "text": ">=",
+        "isCorrect": true
+      },
+      {
+        "text": "<",
+        "isCorrect": false
+      },
+      {
+        "text": ">",
+        "isCorrect": false
+      },
+      {
+        "text": "<=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N9",
+    "question": "左辺が右辺以下かを比較する演算子はどれ？",
+    "answer": "<=",
+    "options": [
+      {
+        "text": ">=",
+        "isCorrect": false
+      },
+      {
+        "text": "<=",
+        "isCorrect": true
+      },
+      {
+        "text": "<",
+        "isCorrect": false
+      },
+      {
+        "text": ">",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N10",
+    "question": "変数の値を1増やす演算子はどれ？",
+    "answer": "++",
+    "options": [
+      {
+        "text": "++",
+        "isCorrect": true
+      },
+      {
+        "text": "--",
+        "isCorrect": false
+      },
+      {
+        "text": "+=",
+        "isCorrect": false
+      },
+      {
+        "text": "+1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N11",
+    "question": "変数の値を1減らす演算子はどれ？",
+    "answer": "--",
+    "options": [
+      {
+        "text": "--",
+        "isCorrect": true
+      },
+      {
+        "text": "++",
+        "isCorrect": false
+      },
+      {
+        "text": "-=",
+        "isCorrect": false
+      },
+      {
+        "text": "-1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N12",
+    "question": "変数 a に 5 を足して代入する場合に使われる演算子はどれ？",
+    "answer": "+=",
+    "options": [
+      {
+        "text": "+=",
+        "isCorrect": true
+      },
+      {
+        "text": "++",
+        "isCorrect": false
+      },
+      {
+        "text": "=",
+        "isCorrect": false
+      },
+      {
+        "text": "+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N13",
+    "question": "変数 a から 3 を引いて代入する場合に使われる演算子はどれ？",
+    "answer": "-=",
+    "options": [
+      {
+        "text": "-=",
+        "isCorrect": true
+      },
+      {
+        "text": "--",
+        "isCorrect": false
+      },
+      {
+        "text": "=",
+        "isCorrect": false
+      },
+      {
+        "text": "-",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N14",
+    "question": "変数 a に 2 を掛けて代入する場合に使われる演算子はどれ？",
+    "answer": "*=",
+    "options": [
+      {
+        "text": "*=",
+        "isCorrect": true
+      },
+      {
+        "text": "*",
+        "isCorrect": false
+      },
+      {
+        "text": "=",
+        "isCorrect": false
+      },
+      {
+        "text": "×=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N15",
+    "question": "変数 a を 4 で割って代入する場合に使われる演算子はどれ？",
+    "answer": "/=",
+    "options": [
+      {
+        "text": "/=",
+        "isCorrect": true
+      },
+      {
+        "text": "/",
+        "isCorrect": false
+      },
+      {
+        "text": "=",
+        "isCorrect": false
+      },
+      {
+        "text": "÷=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N16",
+    "question": "変数 a を 3 で割った余りを代入する場合に使われる演算子はどれ？",
+    "answer": "%=",
+    "options": [
+      {
+        "text": "%=",
+        "isCorrect": true
+      },
+      {
+        "text": "%",
+        "isCorrect": false
+      },
+      {
+        "text": "=",
+        "isCorrect": false
+      },
+      {
+        "text": "/%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N17",
+    "question": "変数 a を 2乗して代入する場合に使われる演算子はどれ？",
+    "answer": "**=",
+    "options": [
+      {
+        "text": "**=",
+        "isCorrect": true
+      },
+      {
+        "text": "**",
+        "isCorrect": false
+      },
+      {
+        "text": "=",
+        "isCorrect": false
+      },
+      {
+        "text": "^=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N18",
+    "question": "2つの条件がどちらも true のとき true になる論理演算子はどれ？",
+    "answer": "&&",
+    "options": [
+      {
+        "text": "&&",
+        "isCorrect": true
+      },
+      {
+        "text": "||",
+        "isCorrect": false
+      },
+      {
+        "text": "!",
+        "isCorrect": false
+      },
+      {
+        "text": "==",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N19",
+    "question": "2つの条件のどちらかが true のとき true になる論理演算子はどれ？",
+    "answer": "||",
+    "options": [
+      {
+        "text": "||",
+        "isCorrect": true
+      },
+      {
+        "text": "&&",
+        "isCorrect": false
+      },
+      {
+        "text": "!",
+        "isCorrect": false
+      },
+      {
+        "text": "!=",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N20",
+    "question": "true と false を反転させる論理演算子はどれ？",
+    "answer": "!",
+    "options": [
+      {
+        "text": "!",
+        "isCorrect": true
+      },
+      {
+        "text": "!!",
+        "isCorrect": false
+      },
+      {
+        "text": "&&",
+        "isCorrect": false
+      },
+      {
+        "text": "||",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N21",
+    "question": "Null合体演算子と呼ばれる、左辺がnullまたはundefinedのときに右辺の値を返し、それ以外のときには左辺を返すものは？",
+    "answer": "??",
+    "options": [
+      {
+        "text": "?",
+        "isCorrect": false
+      },
+      {
+        "text": "??",
+        "isCorrect": true
+      },
+      {
+        "text": "?.",
+        "isCorrect": false
+      },
+      {
+        "text": "..",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N22",
+    "question": "オプショナルチェイニング演算子と呼ばれる、nullableなオブジェクトに対して安全にアクセスするための演算子は？",
+    "answer": "?.",
+    "options": [
+      {
+        "text": "?",
+        "isCorrect": false
+      },
+      {
+        "text": "??",
+        "isCorrect": false
+      },
+      {
+        "text": "?.",
+        "isCorrect": true
+      },
+      {
+        "text": "..",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N23",
+    "question": "n進数などを指定せず、Number型を文字列に変換するときに最も標準なものは？",
+    "answer": "String()",
+    "options": [
+      {
+        "text": "String()",
+        "isCorrect": true
+      },
+      {
+        "text": ".toString()",
+        "isCorrect": false
+      },
+      {
+        "text": "toFixed()",
+        "isCorrect": false
+      },
+      {
+        "text": "..",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N24",
+    "question": "小数点以下の桁数を指定して、Number型を文字列に変換するものは？",
+    "answer": "toFixed()",
+    "options": [
+      {
+        "text": "String()",
+        "isCorrect": false
+      },
+      {
+        "text": ".toString()",
+        "isCorrect": false
+      },
+      {
+        "text": "toFixed()",
+        "isCorrect": true
+      },
+      {
+        "text": "..",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N25",
+    "question": "無限大を表すものはどれ？",
+    "answer": "Infinity",
+    "options": [
+      {
+        "text": "Infinity",
+        "isCorrect": true
+      },
+      {
+        "text": "-Infinity",
+        "isCorrect": false
+      },
+      {
+        "text": "NaN",
+        "isCorrect": false
+      },
+      {
+        "text": "void",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N26",
+    "question": "undefinedを得るために用いられるものは？",
+    "answer": "void",
+    "options": [
+      {
+        "text": "Infinity",
+        "isCorrect": false
+      },
+      {
+        "text": "-Infinity",
+        "isCorrect": false
+      },
+      {
+        "text": "NaN",
+        "isCorrect": false
+      },
+      {
+        "text": "void",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "N27",
+    "question": "与えられた数を四捨五入して、もっとも近似の整数を返すものは？",
+    "answer": "Math.round()",
+    "options": [
+      {
+        "text": "Math.floor()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.round()",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.trunc()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N28",
+    "question": "切り捨てで与えられた数値以下の最大の整数を返すものは？",
+    "answer": "Math.floor()",
+    "options": [
+      {
+        "text": "Math.floor()",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.ceil()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.round()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.trunc()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N29",
+    "question": "切り上げで与えられた数以上の最小の整数を返すものは？",
+    "answer": "Math.ceil()",
+    "options": [
+      {
+        "text": "Math.floor()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil()",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.round()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.trunc()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N30",
+    "question": "与えられた数の小数部の桁を取り除くものは？",
+    "answer": "Math.trunc()",
+    "options": [
+      {
+        "text": "Math.floor()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.round()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.trunc()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "N31",
+    "question": "与えられた数値のうち最小の値を返すものは？",
+    "answer": "Math.min()",
+    "options": [
+      {
+        "text": "Math.floor()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.min()",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.max()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "N32",
+    "question": "与えられた数値のうち最大の値を返すものは？",
+    "answer": "Math.max()",
+    "options": [
+      {
+        "text": "Math.floor()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.min()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.max()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "N33",
+    "question": "0〜1未満のランダムな数値を生成する関数は？",
+    "answer": "Math.random()",
+    "options": [
+      {
+        "text": "Math.random()",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.rand()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.randomInt()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.num()",
+        "isCorrect": false
+      }
+    ]
+  }
+]
