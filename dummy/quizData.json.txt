@@ -3,9 +3,6 @@
     "id": "B1",
     "question": "変数を宣言するキーワードはどれ？",
     "answer": "let",
-    "tags": "変数, 宣言",
-    "keyWords": "let, 変数宣言",
-    "explanation": "変数宣言はletを使います、変数は途中で更新できます。",
     "options": [
       {
         "text": "let",
@@ -29,9 +26,6 @@
     "id": "B2",
     "question": "定数を宣言するキーワードはどれ？",
     "answer": "const",
-    "tags": "定数, 宣言",
-    "keyWords": "const, 定数宣言",
-    "explanation": "定数宣言はconstを使います、定数は途中で更新できません。",
     "options": [
       {
         "text": "static",
@@ -55,9 +49,6 @@
     "id": "B3",
     "question": "文字列を数値に変換する関数はどれ？",
     "answer": "Number()",
-    "tags": "型変換, 関数",
-    "keyWords": "Number(), 数値変換",
-    "explanation": "Number() は引数を数値型に変換します。文字列から整数や小数に変換するときに使えます。",
     "options": [
       {
         "text": "parseInt()",
@@ -81,9 +72,6 @@
     "id": "B4",
     "question": "数値を文字列に変換するメソッドはどれ？",
     "answer": ".toString()",
-    "tags": "メソッド, データ型変換",
-    "keyWords": ".toString, 型変換",
-    "explanation": ".toString() は数値を文字列に変換します。",
     "options": [
       {
         "text": "parseInt()",
@@ -107,9 +95,6 @@
     "id": "B5",
     "question": "メッセージをコンソールに表示するのはどれ？",
     "answer": "console.log()",
-    "tags": "表示, コンソール",
-    "keyWords": "console.log, 表示",
-    "explanation": "console.log() はコンソールにメッセージを表示します。",
     "options": [
       {
         "text": "console.log()",
@@ -133,9 +118,6 @@
     "id": "B6",
     "question": "メッセージを含むダイアログを表示するのはどれ？",
     "answer": "window.alert()",
-    "tags": "表示, ダイアログ",
-    "keyWords": "alert(), ダイアログ表示",
-    "explanation": "window.alert() は任意のメッセージを含むダイアログを表示し、ユーザーがそのダイアログを閉じるまで待機します。",
     "options": [
       {
         "text": "console.log()",
@@ -159,9 +141,6 @@
     "id": "B7",
     "question": "ユーザーにテキストを入力するように促すダイアログを表示するのはどれ？",
     "answer": "window.prompt()",
-    "tags": "テキストボックス, ダイアログ",
-    "keyWords": "prompt(), 入力ダイアログ",
-    "explanation": "window.prompt() はユーザーにテキストを入力するように促すダイアログをオプションのメッセージと共に表示し、ユーザーがテキストを送信するかダイアログをキャンセルするまで待機するようにブラウザーに指示します。",
     "options": [
       {
         "text": "console.log()",
@@ -185,9 +164,6 @@
     "id": "B8",
     "question": "基本的な繰り返し処理に使われる、条件を満たす間繰り返し処理をする文はどれ？",
     "answer": "for",
-    "tags": "繰り返し処理, 制御構造",
-    "keyWords": "for, ループ",
-    "explanation": "for文は条件を満たす間繰り返しループします。",
     "options": [
       {
         "text": "for",
@@ -211,9 +187,6 @@
     "id": "B9",
     "question": "基本的な分岐処理に使われる、条件を満たす場合のみ処理をする文はどれ？",
     "answer": "if",
-    "tags": "分岐処理, 条件文",
-    "keyWords": "if, 条件",
-    "explanation": "if文は条件を満たす場合のみ処理をします。",
     "options": [
       {
         "text": "for",
@@ -237,9 +210,6 @@
     "id": "B10",
     "question": "次のうち、行コメント（短文）で使われるものは？",
     "answer": "//",
-    "tags": "コメント, 行コメント",
-    "keyWords": "行コメント, 短文",
-    "explanation": "一行程度の短いコメントは//で記述します",
     "options": [
       {
         "text": "//",
@@ -263,9 +233,6 @@
     "id": "B11",
     "question": "ブロックコメント（長文）で使われるものは？",
     "answer": "/* */",
-    "tags": "コメント, ブロックコメント",
-    "keyWords": "ブロックコメント, 複数行コメント",
-    "explanation": "長いコメントは/* */で記述します",
     "options": [
       {
         "text": "//",
@@ -289,9 +256,6 @@
     "id": "B12",
     "question": "意図的にオブジェクトの値が存在しないことを表すものはどれ？",
     "answer": "null",
-    "tags": "存在しない, データ型",
-    "keyWords": "null, 値がない",
-    "explanation": "nullは意図的にオブジェクトの値が存在しないことを表します。",
     "options": [
       {
         "text": "null",
@@ -315,9 +279,6 @@
     "id": "B13",
     "question": "値がないことを示したり、未定義であることを表すものはどれ？",
     "answer": "undefined",
-    "tags": "未定義, データ型",
-    "keyWords": "undefined, 未定義",
-    "explanation": "未定義や値がない場合は undefined が既定値となります。",
     "options": [
       {
         "text": "null",
@@ -341,9 +302,6 @@
     "id": "B14",
     "question": "非数を表す値はどれ？",
     "answer": "NaN",
-    "tags": "データ型, 非数",
-    "keyWords": "NaN, Not a Number",
-    "explanation": "NaN は非数 (Not-A-Number) を表す値です。数値に変換できない場合や不正な計算結果のときにNaNになります。NaN同士を比較してもfalseになります。",
     "options": [
       {
         "text": "null",
@@ -367,9 +325,6 @@
     "id": "B15",
     "question": "加算を行う演算子はどれ？",
     "answer": "+",
-    "tags": "演算子, 加算演算子",
-    "keyWords": "+, 加算",
-    "explanation": "「+」は加算を行う演算子です。厳密に数値として定義しておかないと文字列として連結されてしまいます",
     "options": [
       {
         "text": "+",
@@ -393,9 +348,6 @@
     "id": "B16",
     "question": "論理値で真を表すのはどれ？",
     "answer": "true",
-    "tags": "論理値, 真",
-    "keyWords": "true, 真",
-    "explanation": "trueは真を表します",
     "options": [
       {
         "text": "true",
@@ -419,9 +371,6 @@
     "id": "B17",
     "question": "論理値で偽を表すのはどれ？",
     "answer": "false",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "falseは偽を表します",
     "options": [
       {
         "text": "true",
@@ -445,9 +394,6 @@
     "id": "B18",
     "question": "等しいかどうかを比較する演算子はどれ？",
     "answer": "==",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「==」は値が等しいかどうか比較します（型は厳密ではなく、変換を試みます）。",
     "options": [
       {
         "text": "=",
@@ -471,9 +417,6 @@
     "id": "B19",
     "question": "値と型の両方が等しいかどうかを比較する演算子はどれ？",
     "answer": "===",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「===」は値と型の両方を比較する厳密等価演算子です。型変更は行われません。",
     "options": [
       {
         "text": "==",
@@ -497,9 +440,6 @@
     "id": "B20",
     "question": "等しくないかどうかを判断する演算子はどれ？",
     "answer": "!=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「!=」は値が等しくないかを比較します。（型変更あり）",
     "options": [
       {
         "text": "!=",
@@ -523,9 +463,6 @@
     "id": "B21",
     "question": "値と型の両方が等しくないかどうか判断する演算子はどれ？",
     "answer": "!==",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「!==」は値と型が異なるか比較する厳密不等価演算子です。（型変更なし）",
     "options": [
       {
         "text": "!==",
@@ -549,9 +486,6 @@
     "id": "B22",
     "question": "型チェックで用いられるのはどれ？",
     "answer": "typeof",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "typeofは値と型が異なるか比較する厳密不等価演算子です。（型変更なし）",
     "options": [
       {
         "text": "typeof",
@@ -575,9 +509,6 @@
     "id": "A1",
     "question": "配列の長さを取得するプロパティは？",
     "answer": ".length",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "",
     "options": [
       {
         "text": ".count",
@@ -601,9 +532,6 @@
     "id": "A2",
     "question": "配列の末尾に追加するメソッドは？",
     "answer": ".push",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "",
     "options": [
       {
         "text": ".join",
@@ -627,9 +555,6 @@
     "id": "A3",
     "question": "配列の先頭に追加するメソッドは？",
     "answer": ".unshift",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "",
     "options": [
       {
         "text": ".join",
@@ -653,9 +578,6 @@
     "id": "A4",
     "question": "配列の最後を削除するメソッドは？",
     "answer": ".pop",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "",
     "options": [
       {
         "text": ".pop",
@@ -679,9 +601,6 @@
     "id": "A5",
     "question": "配列の先頭を削除するメソッドは？",
     "answer": ".shift",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "",
     "options": [
       {
         "text": ".pop",
@@ -705,9 +624,6 @@
     "id": "A6",
     "question": "位置を指定して配列を追加したり削除できるメソッドは？",
     "answer": ".splice",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "spliceはほかにも置き換えなども行えます",
     "options": [
       {
         "text": ".control",
@@ -731,9 +647,6 @@
     "id": "A7",
     "question": "配列要素を展開してくれるスプレッド構文はどれ？",
     "answer": "...",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "",
     "options": [
       {
         "text": "...",
@@ -757,9 +670,6 @@
     "id": "A8",
     "question": "配列のすべての要素に同じ処理を行うメソッドは？",
     "answer": ".forEach()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".forEach() は配列の各要素に対して関数を一度ずつ実行します。新しい配列は返しません。",
     "options": [
       {
         "text": ".map()",
@@ -783,9 +693,6 @@
     "id": "A9",
     "question": "条件を満たす要素だけを抽出するメソッドは？",
     "answer": ".filter()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".filter() はコールバック関数の戻り値が true の要素だけを集めて新しい配列を返します。",
     "options": [
       {
         "text": ".map()",
@@ -809,9 +716,6 @@
     "id": "A10",
     "question": "配列を別の形に変換して新しい配列を作るメソッドは？",
     "answer": ".map()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".map() は各要素を変換して新しい配列を返します。元の配列は変更されません。",
     "options": [
       {
         "text": ".map()",
@@ -835,9 +739,6 @@
     "id": "A11",
     "question": "配列のすべての要素を1つの値にまとめるメソッドは？",
     "answer": ".reduce()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".reduce() は配列の全要素を1つの値にまとめます。合計や平均などの集計に使われます。",
     "options": [
       {
         "text": ".reduce()",
@@ -861,9 +762,6 @@
     "id": "A12",
     "question": "配列を文字列として結合するメソッドは？",
     "answer": ".join()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".join() は配列の全要素を1つの文字列に結合します。",
     "options": [
       {
         "text": ".concat()",
@@ -887,9 +785,6 @@
     "id": "A13",
     "question": "複数の配列を1つにまとめるメソッドは？",
     "answer": ".concat()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".concat() は複数の配列を結合して新しい配列を返します。",
     "options": [
       {
         "text": ".concat()",
@@ -913,9 +808,6 @@
     "id": "S1",
     "question": "文字列を特定の区切りで配列に分割するメソッドは？",
     "answer": ".split()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".split() は文字列を指定した区切り文字で分割して配列を返します。",
     "options": [
       {
         "text": ".join()",
@@ -939,9 +831,6 @@
     "id": "S2",
     "question": "文字列中に指定した文字列があるか検索し、真偽値を返すものは？",
     "answer": ".includes()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".includes() は文字列中に指定した文字列があるか検索し、真偽値を返します。",
     "options": [
       {
         "text": ".match()",
@@ -965,9 +854,6 @@
     "id": "S3",
     "question": "文字列の先頭が指定した文字列で始まるか判定するものは？",
     "answer": ".startsWith()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".startsWith() は文字列の先頭が指定した文字列で始まるか判定します。",
     "options": [
       {
         "text": ".startsWith()",
@@ -991,9 +877,6 @@
     "id": "S4",
     "question": "文字列の末尾が指定した文字列で終わるか判定するものは？",
     "answer": ".endsWith()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".endsWith() は文字列の末尾が指定した文字列で終わるか判定します。",
     "options": [
       {
         "text": ".startsWith()",
@@ -1017,9 +900,6 @@
     "id": "S5",
     "question": "文字列中に指定した文字列があるか検索し、最初に出現する位置を返すものは？",
     "answer": ".indexOf()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".indexOf() は文字列中に指定した文字列があるか検索し、最初に出現する位置を返します。",
     "options": [
       {
         "text": ".startsWith()",
@@ -1043,9 +923,6 @@
     "id": "S6",
     "question": "文字列中に指定した文字列があるか検索し、最後に出現する位置を返すものは？",
     "answer": ".lastIndexOf()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".lastIndexOf() は文字列中に指定した文字列があるか検索し、最後に出現する位置を返します。",
     "options": [
       {
         "text": ".startsWith()",
@@ -1069,9 +946,6 @@
     "id": "S7",
     "question": "グローバルフラグが必須でない、文字列中に指定した正規表現に一致するものがあるか検索して返すものは？",
     "answer": ".match()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".match() は文字列中に指定した正規表現に一致するものがあるか検索して配列にして返します。",
     "options": [
       {
         "text": ".match()",
@@ -1095,9 +969,6 @@
     "id": "S8",
     "question": "グローバルフラグが必須で、文字列中に指定した正規表現に一致するものがあるか検索して返すものは？",
     "answer": ".matchAll()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".matchAll() は文字列中に指定した正規表現に一致するものがあるか検索してイテレーターとして返します。",
     "options": [
       {
         "text": ".match()",
@@ -1121,9 +992,6 @@
     "id": "S9",
     "question": "文字列中に引数に指定した正規表現に一致するものがあるか検索し、最初の位置か-1を返すものは？",
     "answer": ".search()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".search() は文字列中に引数に指定した正規表現に一致するものがあるか検索し、一致するものがあれば最初の位置を、なければ-1を返します。",
     "options": [
       {
         "text": ".match()",
@@ -1147,9 +1015,6 @@
     "id": "S10",
     "question": "文字列の桁数を揃えたい場合に、先頭から埋めて返すものは？",
     "answer": ".padStart()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "文字列.padStart()で、文字列を指定した桁数になるように、先頭から指定した文字で埋めて返します。",
     "options": [
       {
         "text": ".padStart()",
@@ -1173,9 +1038,6 @@
     "id": "S11",
     "question": "文字列の桁数を揃えたい場合に、末尾から埋めて返すものは？",
     "answer": ".padEnd()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "文字列.padEnd()で、文字列を指定した桁数になるように、末尾から指定した文字で埋めて返します。",
     "options": [
       {
         "text": ".padStart()",
@@ -1199,9 +1061,6 @@
     "id": "S12",
     "question": "指定したパターンに一致する最初の部分、または全てを、指定した文字列で置換して返すものはどれ？",
     "answer": ".replace()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "文字列.replace()で、指定したパターンに一致する最初の部分、または全てを、指定した文字列で置換して返します。",
     "options": [
       {
         "text": ".slice()",
@@ -1225,9 +1084,6 @@
     "id": "S13",
     "question": "指定したパターンに一致するもの全てを、指定した文字列で置換して返すものはどれ？",
     "answer": ".replaceAll()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "文字列.replaceAll()で、指定したパターンに一致する最初の部分、または全てを、指定した文字列で置換して返します。",
     "options": [
       {
         "text": ".slice()",
@@ -1251,9 +1107,6 @@
     "id": "S14",
     "question": "指定した位置の文字列を抽出して返すものはどれ？",
     "answer": ".slice()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "文字列.slice()で、指定した位置の文字列を抽出して返します。",
     "options": [
       {
         "text": ".slice()",
@@ -1277,9 +1130,6 @@
     "id": "S15",
     "question": "文字列を指定した区切り文字毎の配列に変換して返すものはどれ？",
     "answer": ".split()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".split()で、文字列を指定した区切り文字毎の配列に変換して返します。",
     "options": [
       {
         "text": ".slice()",
@@ -1303,9 +1153,6 @@
     "id": "S16",
     "question": "文字列を全て大文字に変換して返すものはどれ？",
     "answer": ".toUpperCase()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".toUpperCase()で、文字列を全て大文字に変換して返します。",
     "options": [
       {
         "text": ".toUpperCase()",
@@ -1329,9 +1176,6 @@
     "id": "S17",
     "question": "文字列を全て小文字に変換して返すものはどれ？",
     "answer": ".toLowerCase()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".toLowerCase()で、文字列を全て小文字に変換して返します。",
     "options": [
       {
         "text": ".toUpperCase()",
@@ -1355,9 +1199,6 @@
     "id": "S18",
     "question": "文字列の両端からスペースを削除して返すものはどれ？",
     "answer": ".trim()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".trim()で、文字列の両端からスペースを削除して返します。",
     "options": [
       {
         "text": ".trim()",
@@ -1381,9 +1222,6 @@
     "id": "S19",
     "question": "元の文字列を指定した数だけコピーして、結合した新しい文字列を返すものはどれ？",
     "answer": ".repeat()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".repeat()は呼び出し元の文字列を指定した数だけコピーして結合した新しい文字列を構築して返します。",
     "options": [
       {
         "text": ".loop()",
@@ -1407,9 +1245,6 @@
     "id": "N1",
     "question": "減算を行う演算子はどれ？",
     "answer": "-",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「-」は数値の減算を行う演算子です。文字列も数値に変換して計算しようとしますが、変換できない場合NaNになります。",
     "options": [
       {
         "text": "+",
@@ -1433,9 +1268,6 @@
     "id": "N2",
     "question": "乗算を行う演算子はどれ？",
     "answer": "*",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「*」は数値の乗算を行う演算子です。文字列も数値に変換して計算しようとしますが、変換できない場合NaNになります。",
     "options": [
       {
         "text": "+",
@@ -1459,9 +1291,6 @@
     "id": "N3",
     "question": "除算を行う演算子はどれ？",
     "answer": "/",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「/」は数値の除算を行う演算子です。文字列も数値に変換して計算しようとしますが、変換できない場合NaNになります。",
     "options": [
       {
         "text": "+",
@@ -1485,9 +1314,6 @@
     "id": "N4",
     "question": "余り（剰余）を求める演算子はどれ？",
     "answer": "%",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「%」は割り算の余りを求める演算子です。文字列も数値に変換して計算しようとしますが、変換できない場合NaNになります。",
     "options": [
       {
         "text": "%",
@@ -1511,9 +1337,6 @@
     "id": "N5",
     "question": "べき乗を求める演算子はどれ？",
     "answer": "**",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「**」は数値のべき乗を求める演算子です。文字列も数値に変換して計算しようとしますが、変換できない場合NaNになります。",
     "options": [
       {
         "text": "**",
@@ -1537,9 +1360,6 @@
     "id": "N6",
     "question": "左辺が右辺より大きいか比較する演算子はどれ？",
     "answer": ">",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「>」は左が右より大きいか比較します。",
     "options": [
       {
         "text": ">",
@@ -1563,9 +1383,6 @@
     "id": "N7",
     "question": "左辺が右辺より小さいか比較する演算子はどれ？",
     "answer": "<",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「<」は左が右より小さいか比較します。",
     "options": [
       {
         "text": ">",
@@ -1589,9 +1406,6 @@
     "id": "N8",
     "question": "左辺が右辺以上かを比較する演算子はどれ？",
     "answer": ">=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「>=」は左が右以上か比較します。",
     "options": [
       {
         "text": ">=",
@@ -1615,9 +1429,6 @@
     "id": "N9",
     "question": "左辺が右辺以下かを比較する演算子はどれ？",
     "answer": "<=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「<=」は左が右以下か比較します。",
     "options": [
       {
         "text": ">=",
@@ -1641,9 +1452,6 @@
     "id": "N10",
     "question": "変数の値を1増やす演算子はどれ？",
     "answer": "++",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「++」は変数の値を1増やすインクリメント演算子です。for文でよく使われます。",
     "options": [
       {
         "text": "++",
@@ -1667,9 +1475,6 @@
     "id": "N11",
     "question": "変数の値を1減らす演算子はどれ？",
     "answer": "--",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「--」は変数の値を1減らすデクリメント演算子です。",
     "options": [
       {
         "text": "--",
@@ -1693,9 +1498,6 @@
     "id": "N12",
     "question": "変数 a に 5 を足して代入する場合に使われる演算子はどれ？",
     "answer": "+=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「+=」は右辺の値を足して代入する複合代入演算子です。",
     "options": [
       {
         "text": "+=",
@@ -1719,9 +1521,6 @@
     "id": "N13",
     "question": "変数 a から 3 を引いて代入する場合に使われる演算子はどれ？",
     "answer": "-=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「-=」は右辺の値を引いて代入する複合代入演算子です。",
     "options": [
       {
         "text": "-=",
@@ -1745,9 +1544,6 @@
     "id": "N14",
     "question": "変数 a に 2 を掛けて代入する場合に使われる演算子はどれ？",
     "answer": "*=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「*=」は右辺の値を掛けて代入する複合代入演算子です。",
     "options": [
       {
         "text": "*=",
@@ -1771,9 +1567,6 @@
     "id": "N15",
     "question": "変数 a を 4 で割って代入する場合に使われる演算子はどれ？",
     "answer": "/=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「/=」は右辺の数で割った結果を代入する複合代入演算子です。",
     "options": [
       {
         "text": "/=",
@@ -1797,9 +1590,6 @@
     "id": "N16",
     "question": "変数 a を 3 で割った余りを代入する場合に使われる演算子はどれ？",
     "answer": "%=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「%=」は割り算の余りを代入する複合代入演算子です。",
     "options": [
       {
         "text": "%=",
@@ -1823,9 +1613,6 @@
     "id": "N17",
     "question": "変数 a を 2乗して代入する場合に使われる演算子はどれ？",
     "answer": "**=",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「**=」は右辺の値でべき乗して代入する複合代入演算子です。",
     "options": [
       {
         "text": "**=",
@@ -1849,9 +1636,6 @@
     "id": "N18",
     "question": "2つの条件がどちらも true のとき true になる論理演算子はどれ？",
     "answer": "&&",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「&&」は論理 AND（かつ）。両方が true のときだけ true になります。",
     "options": [
       {
         "text": "&&",
@@ -1875,9 +1659,6 @@
     "id": "N19",
     "question": "2つの条件のどちらかが true のとき true になる論理演算子はどれ？",
     "answer": "||",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「||」は論理 OR（または）。どちらか一方でも true なら true になります。",
     "options": [
       {
         "text": "||",
@@ -1901,9 +1682,6 @@
     "id": "N20",
     "question": "true と false を反転させる論理演算子はどれ？",
     "answer": "!",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "「!」は論理 NOT。値を反転し、true → false、false → true にします。",
     "options": [
       {
         "text": "!",
@@ -1927,9 +1705,6 @@
     "id": "N21",
     "question": "Null合体演算子と呼ばれる、左辺がnullまたはundefinedのときに右辺の値を返し、それ以外のときには左辺を返すものは？",
     "answer": "??",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Null合体演算子は、演算子の一種で左辺がnullまたはundefinedのときに右辺の値を返し、それ以外のときには左辺を返します。AND演算子やOR演算子と使用したいときには、カッコをつけて明示的に優先順位をつける必要があります。",
     "options": [
       {
         "text": "?",
@@ -1953,9 +1728,6 @@
     "id": "N22",
     "question": "オプショナルチェイニング演算子と呼ばれる、nullableなオブジェクトに対して安全にアクセスするための演算子は？",
     "answer": "?.",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "オプショナルチェイニング演算子は、nullableなオブジェクトに対して安全にアクセスするための演算子です。これは、プロパティにアクセスするときに.の代わりに?.を使用して、オブジェクトがnullまたはundefiendだった場合、実行時エラーを吐く代わりにundefinedを返します。",
     "options": [
       {
         "text": "?",
@@ -1979,9 +1751,6 @@
     "id": "N23",
     "question": "n進数などを指定せず、Number型を文字列に変換するときに最も標準なものは？",
     "answer": "String()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "String()は単純にNumber型をString 型に変換します。",
     "options": [
       {
         "text": "String()",
@@ -2005,9 +1774,6 @@
     "id": "N24",
     "question": "小数点以下の桁数を指定して、Number型を文字列に変換するものは？",
     "answer": "toFixed()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": ".toString()は指定した進数でNumber型をString 型に変換します。何も指定がない場合10進数で変換されます",
     "options": [
       {
         "text": "String()",
@@ -2031,9 +1797,6 @@
     "id": "N25",
     "question": "無限大を表すものはどれ？",
     "answer": "Infinity",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Infinity は無限大を表す数値です。",
     "options": [
       {
         "text": "Infinity",
@@ -2057,9 +1820,6 @@
     "id": "N26",
     "question": "undefinedを得るために用いられるものは？",
     "answer": "void",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "void 演算子は与えられた式を評価し、undefined を返します。",
     "options": [
       {
         "text": "Infinity",
@@ -2083,9 +1843,6 @@
     "id": "N27",
     "question": "与えられた数を四捨五入して、もっとも近似の整数を返すものは？",
     "answer": "Math.round()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Math.round() 関数は、引数として与えた数を四捨五入して、もっとも近似の整数を返します。",
     "options": [
       {
         "text": "Math.floor()",
@@ -2109,9 +1866,6 @@
     "id": "N28",
     "question": "切り捨てで与えられた数値以下の最大の整数を返すものは？",
     "answer": "Math.floor()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Math.floor() は切り捨てで与えられた数値以下の最大の整数を返します。",
     "options": [
       {
         "text": "Math.floor()",
@@ -2135,9 +1889,6 @@
     "id": "N29",
     "question": "切り上げで与えられた数以上の最小の整数を返すものは？",
     "answer": "Math.ceil()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Math.ceil() は切り上げを行い、与えられた数以上の最小の整数を返します。",
     "options": [
       {
         "text": "Math.floor()",
@@ -2161,9 +1912,6 @@
     "id": "N30",
     "question": "与えられた数の小数部の桁を取り除くものは？",
     "answer": "Math.trunc()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Math.trunc() 関数は、引数として与えた数の小数部の桁を取り除くことによって整数部を返します。",
     "options": [
       {
         "text": "Math.floor()",
@@ -2187,9 +1935,6 @@
     "id": "N31",
     "question": "与えられた数値のうち最小の値を返すものは？",
     "answer": "Math.min()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Math.min() は入力引数として与えられた数値のうち最小の値を返します。引数がない場合は Infinity を返します。",
     "options": [
       {
         "text": "Math.floor()",
@@ -2213,9 +1958,6 @@
     "id": "N32",
     "question": "与えられた数値のうち最大の値を返すものは？",
     "answer": "Math.max()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Math.max() は入力引数として与えられた数値のうち最大の値を返します。引数がなかった場合は -Infinity を返します。",
     "options": [
       {
         "text": "Math.floor()",
@@ -2239,9 +1981,6 @@
     "id": "N33",
     "question": "0〜1未満のランダムな数値を生成する関数は？",
     "answer": "Math.random()",
-    "tags": "",
-    "keyWords": "",
-    "explanation": "Math.random() は0以上1未満のランダムな数値を返します。",
     "options": [
       {
         "text": "Math.random()",

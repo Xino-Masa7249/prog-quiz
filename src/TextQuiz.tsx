@@ -1,6 +1,14 @@
 import { useState } from "react";
+import type { QuizItem } from "./app";
 
-function TextQuiz() {
+interface TextQuizProps {
+  quizData: QuizItem[];
+  onBack: () => void;
+  children: React.ReactNode;
+}
+
+
+function TextQuiz({ quizData, onBack, children }: TextQuizProps) {
   const [input, setInput] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
